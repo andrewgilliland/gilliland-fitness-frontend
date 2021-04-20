@@ -19,7 +19,7 @@ const GlobalStyles = createGlobalStyle`
     --gray: var(--grey);
     --lightGrey: #e1e1e1;
     --LightGray: var(--lightGray);
-    --offWhite: #ededed; */
+    --grey-050: #ededed; */
 
     --maxWidth: 1000px;
     --box-shadow: 0 12px 24px 0 rgba(0,0,0,0.09);
@@ -64,6 +64,8 @@ const GlobalStyles = createGlobalStyle`
 
   html {
     box-sizing: border-box;
+    font-size: 62.5%;
+    // 62.5%
   }
 
   *, *:before, *:after {

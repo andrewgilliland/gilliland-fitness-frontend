@@ -3,14 +3,14 @@ import styled from 'styled-components';
 const Table = styled.table`
   border-spacing: 0;
   width: 100%;
-  border: 1px solid var(--offWhite);
+  border: 1px solid var(--grey-050);
   thead {
     font-size: 10px;
   }
   td,
   th {
-    border-bottom: 1px solid var(--offWhite);
-    border-right: 1px solid var(--offWhite);
+    border-bottom: 1px solid var(--grey-050);
+    border-right: 1px solid var(--grey-050);
     padding: 10px 5px;
     position: relative;
     &:last-child {
@@ -23,7 +23,7 @@ const Table = styled.table`
   }
   tr {
     &:hover {
-      background: var(--offWhite);
+      background: var(--grey-050);
     }
   }
 `;

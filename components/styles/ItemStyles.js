@@ -1,17 +1,19 @@
 import styled from 'styled-components';
 
-const Item = styled.div`
+const ItemStyles = styled.div`
   background: white;
-  border: 1px solid var(--offWhite);
-  box-shadow: var(--bs);
+  border: 1px solid var(--grey-050);
+  box-shadow: var(--box-shadow);
   position: relative;
   display: flex;
   flex-direction: column;
+
   img {
     width: 100%;
     height: 400px;
     object-fit: cover;
   }
+
   p {
     line-height: 2;
     font-weight: 300;
@@ -19,6 +21,7 @@ const Item = styled.div`
     padding: 0 3rem;
     font-size: 1.5rem;
   }
+
   .buttonList {
     display: grid;
     width: 100%;
@@ -35,4 +38,4 @@ const Item = styled.div`
   }
 `;
 
-export default Item;
+export default ItemStyles;
