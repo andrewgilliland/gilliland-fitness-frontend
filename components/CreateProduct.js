@@ -56,7 +56,7 @@ export default function CreateProduct() {
         clearForm();
         // Go to that product's page!
         Router.push({
-          pathname: `/products/${res.data.createProduct.id}`,
+          pathname: `/product/${res.data.createProduct.id}`,
         });
       }}
     >
