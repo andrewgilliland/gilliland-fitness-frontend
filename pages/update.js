@@ -1,9 +1,5 @@
 import UpdateProduct from '../components/UpdateProduct';
 
-export default function UpdatePage() {
-  return (
-    <>
-      <CreateProduct />
-    </>
-  );
+export default function UpdatePage({ query }) {
+  return <UpdateProduct id={query.id} />;
 }
