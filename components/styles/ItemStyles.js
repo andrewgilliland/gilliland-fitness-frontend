@@ -25,10 +25,10 @@ const ItemStyles = styled.div`
   .buttonList {
     display: grid;
     width: 100%;
-    border-top: 1px solid var(--lightGray);
+    border-top: 1px solid var(--grey-100);
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-gap: 1px;
-    background: var(--lightGray);
+    background: var(--grey-100);
     & > * {
       background: white;
       border: 0;
