@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const PaginationStyles = styled.div`
+  font-size: 1.5rem;
   text-align: center;
   display: inline-grid;
   grid-template-columns: repeat(4, auto);
@@ -8,12 +9,12 @@ const PaginationStyles = styled.div`
   justify-content: center;
   align-content: center;
   margin: 2rem 0;
-  border: 1px solid var(--lightGray);
+  border: 1px solid var(--grey-100);
   border-radius: 10px;
   & > * {
     margin: 0;
     padding: 15px 30px;
-    border-right: 1px solid var(--lightGray);
+    border-right: 1px solid var(--grey-100);
     &:last-child {
       border-right: 0;
     }
