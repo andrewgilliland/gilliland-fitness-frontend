@@ -31,11 +31,10 @@ export default function RequestReset() {
 
   async function handleSubmit(e) {
     e.preventDefault(); // stop the form from submitting
-    console.log(inputs);
+
     // Send the email and password to the graphQL API
     const res = await signup().catch(console.error);
-    console.log(res);
-    console.log({ data, loading, error });
+
     resetForm();
   }
 
