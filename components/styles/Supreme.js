@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 
 const Supreme = styled.h3`
-  background: var(--red);
+  background: var(--purple-500);
   color: white;
-  display: inline-block;
+  display: block;
   padding: 4px 5px;
   transform: skew(-3deg);
   margin: 0;
-  font-size: 4rem;
+  font-size: 2rem;
+  text-align: center;
 `;
 
 export default Supreme;
