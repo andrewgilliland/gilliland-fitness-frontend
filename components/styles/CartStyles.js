@@ -19,6 +19,9 @@ const CartStyles = styled.div`
   grid-template-rows: auto 1fr auto;
   ${(props) => props.open && `transform: translateX(0);`};
   header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-bottom: 5px solid var(--grey-1000);
     margin-bottom: 2rem;
     padding-bottom: 2rem;
