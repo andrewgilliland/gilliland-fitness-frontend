@@ -41,7 +41,7 @@ export default function Products({ page }) {
   return (
     <div>
       <ProductsGrid>
-        {data.allProducts.map((product) => (
+        {data?.allProducts.map((product) => (
           <Product key={product.id} product={product} />
         ))}
       </ProductsGrid>
