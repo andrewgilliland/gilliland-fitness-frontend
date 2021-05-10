@@ -6,7 +6,7 @@ const OrderStyles = styled.div`
   border: 1px solid var(--grey-050);
   box-shadow: var(--box-shadow);
   padding: 2rem;
-  border-top: 10px solid red;
+  border-top: 10px solid var(--purple-500);
   & > p {
     display: grid;
     grid-template-columns: 1fr 5fr;
